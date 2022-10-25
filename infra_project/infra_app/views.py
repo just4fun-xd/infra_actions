@@ -10,4 +10,5 @@ def second_page(request):
 
 
 def new_empty_page(request):
+    # поверка
     return HttpResponse('')
