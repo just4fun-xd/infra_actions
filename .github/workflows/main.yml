@@ -56,43 +56,8 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          key: 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
-AYh0O0f/wW25GEpUsHnn5SQs9s0=
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             sudo docker pull just4funxd/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
