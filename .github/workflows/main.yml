@@ -55,7 +55,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: 51.250.22.204
-          username: kshalygin
+          username: kshalygi
           key: ${{ secrets.SSH_KEY }}
           # passphrase: ${{ secrets.PASSPHRASE }}
           script: |
