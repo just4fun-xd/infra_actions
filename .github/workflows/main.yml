@@ -57,7 +57,7 @@ jobs:
           host: 51.250.22.204
           username: kshalygin
           key: ${{ secrets.SSH_KEY }}
-          passphrase: Vfnmdf1e
+          passphrase: 
           script: |
             sudo docker pull just4funxd/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
