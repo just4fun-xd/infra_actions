@@ -57,7 +57,7 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          scripts: |
+          script: |
             sudo docker pull just4funxd/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker run --rm -d -p 5000:5000 just4funxd/infra_actions
