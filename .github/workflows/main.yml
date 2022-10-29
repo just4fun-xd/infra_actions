@@ -54,10 +54,10 @@ jobs:
       - name: executing remote ssh commands to deploy
         uses: appleboy/ssh-action@master
         with:
-          host: 51.250.22.204
-          username: kshalygin
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
-          passphrase: ndj.vfnm
+          passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             sudo docker pull just4funxd/infra_actions
             sudo docker stop $(sudo docker ps -a -q)
